@@ -7,8 +7,8 @@ import { DeleteUser } from "../app/services/user/authService";
 import { useAuth } from "../app/context/AuthContext";
 import { toast } from "react-toastify";
 
-const UserProfileLeft = ({ userPages }) => {
-  const {  logout } = useAuth();
+const UserProfileLeft = ({ userPages = {} }) => {
+  const { logout } = useAuth();
   const [userId, setUserId] = useState(null);
   const [showDeleteAccount, setShowDeleteAccount] = useState(false);
   const [showLogOut, setShowLogOut] = useState(false);
@@ -24,9 +24,6 @@ const UserProfileLeft = ({ userPages }) => {
     content: {
       top: "0%",
       left: "50%",
-      right: "auto",
-      bottom: "auto",
-      marginRight: "-50%",
       transform: "translate(-50%, 0%)",
       borderRadius: "15px",
       transition: "transform 0.5s ease-out",
@@ -36,241 +33,94 @@ const UserProfileLeft = ({ userPages }) => {
     },
   };
 
-  function openLogoutModal(e) {
-    e.preventDefault(); // Prevents default link behavior
-    setShowLogOut(true); // Sets modal visibility state to true
-  }
-
-  function closeLogoutModal() {
-    setShowLogOut(false); // Sets modal visibility state to false
-  }
-
-  function openDeleteAccountModal(e) {
-    e.preventDefault();
-    setShowDeleteAccount(true);
-  }
-
-  function closeDeleteAccountModal(e) {
-    e.preventDefault();
-    setShowDeleteAccount(false);
-  }
-
   const DeleteUserAccount = async () => {
     try {
-      const payload = {
-        user_id: userId,
-      };
+      const payload = { user_id: userId };
       const res = await DeleteUser(payload);
-      if (res?.data?.status_code == 200) {
-        console.log("Account Deleted!");
-        localStorage.removeItem("user_user_id");
-        localStorage.removeItem("authToken");
-        toast.success('User Deleted Successfully');
+      if (res?.data?.status_code === 200) {
+        localStorage.clear();
+        toast.success("User Deleted Successfully");
         setTimeout(() => {
           window.location.href = "/";
         }, 1000);
       }
     } catch (error) {
-      console.log("Error", error);
+      console.error("Error deleting user:", error);
+      toast.error("Failed to delete account.");
     }
   };
 
   return (
-    <>
-      <div className="breedeerdasboard-profile-left">
-        <ul>
-          <li>
-            <Link
-              href="/user/dashboard-user-profile"
-              className={userPages.page === "profile" ? "active" : ""}
-            >
-              <Image
-                src="/images/Nextpet-imgs/dashboard-imgs/icon1.svg"
-                alt=""
-                width={15}
-                height={15}
-              />
-              <p>My Profile</p>
+    <div className="breedeerdasboard-profile-left">
+      <ul>
+        {[
+          { href: "/user/dashboard-user-profile", text: "My Profile", icon: "icon1", page: "profile" },
+          { href: "/user/alert", text: "Alerts", icon: "icon2", page: "alert" },
+          { href: "/user/favourites", text: "Favorites", icon: "icon4", page: "favorites" },
+          { href: "/user/contacts", text: "Contacts", icon: "icon3", page: "contacts" },
+        ].map(({ href, text, icon, page }) => (
+          <li key={page}>
+            <Link href={href} className={userPages?.page === page ? "active" : ""}>
+              <Image src={`/images/Nextpet-imgs/dashboard-imgs/${icon}.svg`} alt={text} width={15} height={15} />
+              <p>{text}</p>
             </Link>
           </li>
-          <li>
-            <Link
-              href="/user/alert"
-              className={userPages.page === "alert" ? "active" : ""}
-            >
-              <Image
-                src="/images/Nextpet-imgs/dashboard-imgs/icon2.svg"
-                alt=""
-                width={15}
-                height={15}
-              />
-              <p>Alerts</p>
-            </Link>
-          </li>
-
-          <li>
-            <Link
-              href="/user/favourites"
-              className={userPages.page === "favorites" ? "active" : ""}
-            >
-              <Image
-                src="/images/Nextpet-imgs/dashboard-imgs/icon4.svg"
-                alt=""
-                width={15}
-                height={15}
-              />
-              <p>Favorites</p>
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/user/contacts"
-              className={userPages.page === "contacts" ? "active" : ""}
-            >
-              <Image
-                src="/images/Nextpet-imgs/dashboard-imgs/icon3.svg"
-                alt=""
-                width={15}
-                height={15}
-              />
-              <p>Contacts</p>
-            </Link>
-          </li>
-
-          <li>
-            <a href="#" onClick={openLogoutModal}> {/* Open modal when clicked */}
-              <Image
-                src="/images/Nextpet-imgs/dashboard-imgs/icon6.svg"
-                alt=""
-                width={15}
-                height={15}
-              />
-              <p>Logout</p>
-            </a>
-
-            <Modal
-              isOpen={showLogOut} // Modal visibility based on state
-              onRequestClose={closeLogoutModal}
-              style={customStyles}
-              contentLabel="Logout Modal"
-              onAfterOpen={() => {
-                // Apply animation when modal opens
-                document.querySelector(".ReactModal__Content").style.transform =
-                  "translate(-50%, 20%)";
-              }}
-            >
-              <div className="modal-dialog modal-dialog-edit" role="document">
-                <div className="modal-content">
-                  <div className="modal-heading">
-                    <button
-                      type="button"
-                      className="btn-close"
-                      onClick={closeLogoutModal} // Close the modal
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div className="modal-body">
-                    <form action="">
-                      <div className="profileverify-popup-wrap">
-                        <Image
-                          src="/images/Nextpet-imgs/dashboard-imgs/logout-icon-popup.svg"
-                          alt=""
-                          width={85}
-                          height={85}
-                        />
-                        <h1>Logout</h1>
-                        <p>Are you sure you want to logout?</p>
-                        <div className="delete-account-btns">
-                          <button
-                            type="button"
-                            onClick={() => {
-                              logout();
-                              window.location.href = "/"; // Redirect after logout
-                            }}
-                          >
-                            Yes
-                          </button>
-                          <button
-                            type="button"
-                            onClick={closeLogoutModal} // Close modal without logging out
-                          >
-                            No
-                          </button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
+        ))}
+        <li>
+          <a href="#" onClick={() => setShowLogOut(true)}>
+            <Image src="/images/Nextpet-imgs/dashboard-imgs/icon6.svg" alt="Logout" width={15} height={15} />
+            <p>Logout</p>
+          </a>
+          <Modal
+            isOpen={showLogOut}
+            onRequestClose={() => setShowLogOut(false)}
+            style={customStyles}
+            contentLabel="Logout Modal"
+          >
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-body">
+                  <h1>Logout</h1>
+                  <p>Are you sure you want to logout?</p>
+                  <button
+                    onClick={() => {
+                      logout();
+                      window.location.href = "/";
+                    }}
+                  >
+                    Yes
+                  </button>
+                  <button onClick={() => setShowLogOut(false)}>No</button>
                 </div>
               </div>
-            </Modal>
-          </li>
-
-          <li>
-            <a href="#" onClick={openDeleteAccountModal}>
-              <Image
-                src="/images/Nextpet-imgs/dashboard-imgs/icon6.svg"
-                alt=""
-                width={15}
-                height={15}
-              />
-              <p>Delete Account</p>
-            </a>
-
-            <Modal
-              isOpen={showDeleteAccount}
-              onRequestClose={closeDeleteAccountModal}
-              style={customStyles}
-              contentLabel="Delete Account Modal"
-              onAfterOpen={() => {
-                document.querySelector(".ReactModal__Content").style.transform =
-                  "translate(-50%, 20%)";
-              }}
-            >
-              <div className="modal-dialog modal-dialog-edit" role="document">
-                <div className="modal-content">
-                  <div className="modal-heading">
-                    <button
-                      type="button"
-                      className="btn-close"
-                      onClick={closeDeleteAccountModal}
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div className="modal-body">
-                    <form action="">
-                      <div className="profileverify-popup-wrap">
-                        <Image
-                          src="/images/Nextpet-imgs/dashboard-imgs/delete-icon-popup.svg"
-                          alt=""
-                          width={85}
-                          height={85}
-                        />
-                        <h1>Delete</h1>
-                        <p>Are you sure you want to delete your account?</p>
-                        <div className="delete-account-btns">
-                          <button
-                            type="button"
-                            onClick={DeleteUserAccount}
-                          >
-                            Yes
-                          </button>
-                          <button
-                            type="button"
-                            onClick={closeDeleteAccountModal}
-                          >
-                            No
-                          </button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
+            </div>
+          </Modal>
+        </li>
+        <li>
+          <a href="#" onClick={() => setShowDeleteAccount(true)}>
+            <Image src="/images/Nextpet-imgs/dashboard-imgs/icon6.svg" alt="Delete Account" width={15} height={15} />
+            <p>Delete Account</p>
+          </a>
+          <Modal
+            isOpen={showDeleteAccount}
+            onRequestClose={() => setShowDeleteAccount(false)}
+            style={customStyles}
+            contentLabel="Delete Account Modal"
+          >
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-body">
+                  <h1>Delete</h1>
+                  <p>Are you sure you want to delete your account?</p>
+                  <button onClick={DeleteUserAccount}>Yes</button>
+                  <button onClick={() => setShowDeleteAccount(false)}>No</button>
                 </div>
               </div>
-            </Modal>
-          </li>
-        </ul>
-      </div>
-    </>
+            </div>
+          </Modal>
+        </li>
+      </ul>
+    </div>
   );
 };
 
