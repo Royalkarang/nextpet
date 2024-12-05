@@ -1,0 +1,4563 @@
+@media only screen and (min-width: 1280px) and (max-width: 1300px) {
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1279px) {
+  /* NAVBAR */
+  .nav-location {
+    margin-left: 40px;
+    align-items: center;
+  }
+
+  .nav-wrap ul.navbar-nav {
+    gap: 35px;
+  }
+
+  .nav-wrap ul.navbar-nav li.nav-item:last-child a {
+    padding: 8px 30px;
+  }
+
+  /* NAVBAR */
+}
+
+@media only screen and (min-width: 912px) and (max-width: 999px) {
+  /* NAVBAR */
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .nav-location {
+    margin: 20px 0;
+  }
+
+  .nav-wrap ul.navbar-nav {
+    gap: 20px;
+    align-items: stretch;
+  }
+
+  .nav-wrap ul.navbar-nav li.nav-item:last-child a {
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  /* NAVBAR */
+}
+
+@media only screen and (min-width: 800px) and (max-width: 911px) {
+  /* NAVBAR */
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .nav-location {
+    margin: 20px 0;
+  }
+
+  .nav-wrap ul.navbar-nav {
+    gap: 20px;
+    align-items: stretch;
+  }
+
+  .nav-wrap ul.navbar-nav li.nav-item:last-child a {
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  /* NAVBAR */
+
+  /* BANNER */
+
+  .banner-wrap {
+    padding: 29px 0 13px 0;
+
+    ::before {
+      background-image: url(/images/Nextpet-imgs/banner-imgs/banner-bg.jpg);
+      width: 100%;
+      height: 91%;
+      content: "";
+      position: absolute;
+      background-size: cover;
+      background-position: top right 0px;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  }
+
+  .dog-right-banner img {
+    width: 200px;
+    height: 271px;
+    top: 54px;
+  }
+
+  .banner-inner {
+    h1 {
+      font-size: 35px;
+      font-weight: 400;
+      line-height: 39px;
+      margin-left: 0;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-family: Open Sans;
+      font-size: 18px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 18px;
+      line-height: 25.44px;
+      margin-left: 0;
+      text-align: center;
+    }
+
+    form label input[type="text"] {
+      width: 100%;
+      height: 100%;
+      border: none;
+      padding-left: 24px;
+      padding-right: 17px;
+    }
+  }
+
+  .banner-inner {
+    form {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      margin-bottom: 13px;
+    }
+
+    form label input[type="text"]::placeholder {
+      color: #ffc21a;
+      font-size: 10px;
+    }
+  }
+
+  /* banner category */
+
+  #banner-cat-slider {
+    & .owl-nav button {
+      left: -11px;
+    }
+
+    & .owl-nav button:last-child {
+      right: -11px;
+    }
+  }
+
+  .banner-inner-category {
+    border-right: none;
+  }
+
+  .breederform-popup-wrap {
+    h1 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    & .breederimg-popup-wrap {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  /* banner category */
+
+  /* BANNER */
+
+  /* ABOUT US */
+
+  .about-bg {
+    padding-left: 0px;
+    padding-right: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 1px;
+    padding-bottom: 32px;
+  }
+
+  .aboutus-wrap-in-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  .aboutus-wrap-in {
+    padding: 13px 16px;
+
+    span {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 27.6px;
+    }
+
+    a {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  /* ABOUT US */
+
+  /* NEAR YOU SEC CSS */
+
+  .newyear-cat-dog-wrap {
+    padding: 33px 0;
+
+    .newyear-content-card {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    #newyear-cat-dog-slider .owl-nav button {
+      left: -10px;
+    }
+
+    #newyear-cat-dog-slider .owl-nav button:last-child {
+      right: -10px;
+    }
+  }
+
+  /* NEAR YOU SEC CSS */
+
+  /* BETWEEN SEC BANNER CSS */
+
+  .between-bannershead-wrap {
+    padding: 0px 3px 3px 0px;
+    margin-top: -11px;
+    align-items: baseline;
+    justify-content: space-evenly;
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    img {
+      width: 100px;
+    }
+  }
+
+  .recentposted-cat-dog-wrap {
+    padding: 33px 0;
+
+    .recentposted-content-card {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    #recentposted-cat-dog-slider .owl-nav button {
+      left: -10px;
+    }
+
+    #recentposted-cat-dog-slider .owl-nav button:last-child {
+      right: -10px;
+    }
+  }
+
+  /* BETWEEN SEC BANNER CSS */
+
+  /* NEXT APP SEC CSS */
+
+  .nextpet-app-wrap {
+    padding: 36px 20px;
+  }
+
+  .nextpet-app-wrap-in-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .nextpet-app-wrap-in {
+    span {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 27.6px;
+    }
+
+    a img {
+      width: 100%;
+      height: auto;
+    }
+
+    .download-app-btns {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+    }
+  }
+
+  /* NEXT APP SEC CSS */
+
+  /* POPULAR BREDDER SEC CSS */
+
+  #popular-breeders-slider .owl-nav button {
+    left: -10px;
+  }
+
+  #popular-breeders-slider .owl-nav button:last-child {
+    right: -10px;
+  }
+
+  /* POPULAR BREDDER SEC CSS */
+
+  /* FOOTER SEC CSS */
+
+  .footer-wrap {
+    .footer-logo-wrap {
+      img {
+        width: 155px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 27.6px;
+      }
+    }
+
+    .footer-quick-links {
+      gap: 9px;
+      display: flex;
+      align-items: center;
+    }
+
+    .footer-bottom-wrap {
+      display: flex;
+
+      .download-footer-applink {
+        /* flex-direction: column; */
+        display: flex;
+      }
+
+      a img {
+        width: 100%;
+      }
+    }
+  }
+
+  /* FOOTER SEC CSS */
+
+  /* SIGN IN FLOW SEC CSS */
+
+  .influ-dropdown {
+    margin-left: 0;
+
+    .influ-btn {
+      width: 100%;
+    }
+  }
+
+  .breeder-signinflow-wrap {
+    padding: 37px 12px;
+
+    & .breeder-signinflow-inner {
+      flex-direction: column;
+      padding: 29px 10px;
+
+      & .breeder-signin-leftsec {
+        padding: 15px 7px;
+
+        img {
+          width: 151px;
+        }
+      }
+
+      .breeder-signin-rightsec {
+        padding: 6px 8px;
+
+        form {
+          padding: 28px 20px 28px 20px;
+        }
+
+        h1 {
+          color: #000;
+          font-family: "GoodDog New W00 Regular";
+          text-align: center;
+          font-size: 28px;
+          font-weight: 400;
+        }
+
+        .login-btn {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+
+        .rembr-me {
+          font-size: 14px;
+        }
+
+        .or-sec-wrap {
+          width: 100%;
+
+          h3 {
+            font-size: 12px;
+
+            &::before {
+              content: "";
+              border: 1px solid #000000;
+              width: 24%;
+              margin-right: 6px;
+            }
+          }
+        }
+
+        .social-login-wrap {
+          display: flex;
+          gap: 13px;
+        }
+
+        .terms-condition-paragraph {
+          a {
+            font-size: 14px;
+          }
+        }
+
+        & .dont-have-accountwrap {
+          p {
+            font-size: 14px;
+          }
+        }
+
+        & .otp-verification-input {
+          gap: 8px;
+
+          .inputs {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+    }
+  }
+
+  /* SIGN IN FLOW SEC CSS */
+
+  /* DASHBOARD CSS BREEDER */
+
+  .breeder-profile-wrap {
+    padding: 15px 10px;
+
+    .breeder-profile-inner {
+      padding: 20px 6px;
+
+      .profile-pic-wrap {
+        h1 {
+          font-size: 28px;
+          line-height: 28.46px;
+        }
+      }
+    }
+
+    .profile-form-wrap {
+      & .gallery-box-wrap {
+        flex-wrap: wrap;
+
+        .gallery-img-box {
+          width: 47%;
+        }
+      }
+
+      .profile-btn-wrap {
+        button {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+
+  .profileverify-popup-wrap {
+    padding: 18px 15px;
+
+    h1 {
+      font-size: 28px;
+    }
+
+    button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  .breedeerdasboard-profile-wrap {
+    .breedeerdasboard-profile-inner {
+      flex-direction: column;
+
+      .breedeerdasboard-profile-left {
+        width: 100%;
+      }
+
+      .breedeerdasboard-profile-right {
+        padding: 24px 7px;
+        width: 100%;
+
+        .profile-pic-wrap {
+          h1 {
+            font-size: 28px;
+            line-height: 28.46px;
+          }
+
+          .edit-profile-icon {
+            right: 0;
+            top: -15px;
+
+            a img {
+              width: 45px;
+            }
+          }
+        }
+
+        .profile-form-wrap {
+          & .profile-btn-wrap {
+            button {
+              font-size: 14px;
+              padding: 10px 20px;
+            }
+          }
+
+          & .gallery-uploadedbox-wrap {
+            flex-wrap: wrap;
+
+            & .gallery-uploadedimg-box {
+              width: 47%;
+            }
+          }
+
+          & .coaching-wp {
+            p {
+              font-size: 14px;
+              line-height: 24.6px;
+            }
+          }
+
+          .available-plans-wp {
+            & .available-heading {
+              .tooltip:hover .tooltiptext {
+                visibility: visible;
+                width: 100%;
+                min-width: min-content;
+              }
+            }
+
+            & .available-plansbox-wrap {
+              flex-wrap: wrap;
+
+              .available-plans-box {
+                width: 100%;
+              }
+
+              .available-plans-btns {
+                button.active {
+                  font-size: 14px;
+                  padding: 10px 20px;
+                }
+
+                button {
+                  font-size: 14px;
+                  padding: 10px 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /* leads css */
+
+    .leads-right {
+      width: 100%;
+
+      h1 {
+        font-size: 28px;
+        line-height: 28.46px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+      }
+
+      .profile-btn-wrap {
+        button {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+      }
+
+      .dropdown-showfilter {
+        width: auto;
+      }
+
+      & .leads-card-wrap {
+        .leads-box {
+          width: 100%;
+          flex-direction: column;
+        }
+
+        & .leads-content-wrap {
+          & .headinglead-wrap {
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+
+    /* leads css */
+
+    /* posts css */
+
+    .posts-right {
+      width: 100%;
+
+      .post-cards-wrap {
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 28px;
+        line-height: 28.46px;
+      }
+
+      .heading-favourite {
+        justify-content: flex-start;
+        margin-bottom: 72px;
+        flex-direction: column;
+      }
+
+      .user-breeder-toggle {
+        width: 100%;
+        top: 48px;
+      }
+    }
+
+    /* posts css */
+  }
+
+  .conatctcpach-popup-wrap {
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  /* create post css */
+
+  .breedeerdasboard-createpost-wrap {
+    .breedeerdasboard-createpost-inner {
+      flex-direction: column;
+
+      & .breedeerdasboard-createpost-left {
+        width: 100%;
+      }
+
+      & .breedeerdasboard-createpost-right {
+        width: 100%;
+        padding: 3px 6px;
+
+        & form {
+          & .list-post-form {
+            .formdata-wrap:nth-child(odd) {
+              padding: 8px 3px 8px 9px;
+            }
+
+            .formdata-wrap:nth-child(even) {
+              padding: 8px 3px 8px 9px;
+            }
+
+            p {
+              font-size: 16px;
+              line-height: 27.6px;
+            }
+
+            textarea::placeholder {
+              font-size: 16px;
+            }
+
+            select {
+              width: 56%;
+            }
+
+            input[type="text"] {
+              width: 56%;
+            }
+
+            .switch-toggle {
+              width: 31%;
+            }
+
+            & .posts-btn-wrap {
+              button {
+                font-size: 14px;
+                padding: 10px 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* create post css */
+
+  /* subscription css */
+
+  .breedeerdasboard-subscription-wrap {
+    .breedeerdasboard-subscription-inner {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      & .breedeerdasboard-subscription-left {
+        width: 100%;
+      }
+
+      & .breedeerdasboard-subscription-right {
+        width: 100%;
+
+        h1 {
+          font-size: 28px;
+          line-height: 28.46px;
+        }
+
+        & .subscription-payment-wrap {
+          flex-direction: column;
+
+          .subscription-payment-box {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  /* subscription css */
+
+  /* DASHBOARD CSS BREEDER */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+  /* NAVBAR */
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .nav-location {
+    margin: 20px 0;
+  }
+
+  .nav-wrap {
+    ul.navbar-nav {
+      gap: 20px;
+      align-items: stretch;
+    }
+
+    ul.navbar-nav li.nav-item a.breeder-signin {
+      margin-left: 0px;
+    }
+  }
+
+  .nav-wrap ul.navbar-nav li.nav-item:last-child a {
+    border-radius: 44px;
+    text-align: center;
+  }
+
+  .notification-list {
+    width: 100%;
+    min-width: 400px;
+  }
+
+  /* NAVBAR */
+
+  /* BANNER */
+
+  .banner-wrap {
+    padding: 29px 0 13px 0;
+
+    ::before {
+      background-image: url(/images/Nextpet-imgs/banner-imgs/banner-bg.jpg);
+      width: 100%;
+      height: 91%;
+      content: "";
+      position: absolute;
+      background-size: cover;
+      background-position: top right 0px;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  }
+
+  .dog-right-banner img {
+    width: 200px;
+    height: 271px;
+    top: 54px;
+  }
+
+  .banner-inner {
+    h1 {
+      font-size: 35px;
+      font-weight: 400;
+      line-height: 39px;
+      margin-left: 0;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-family: Open Sans;
+      font-size: 18px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 18px;
+      line-height: 25.44px;
+      margin-left: 0;
+      text-align: center;
+    }
+
+    form label input[type="text"] {
+      width: 100%;
+      height: 100%;
+      border: none;
+      padding-left: 24px;
+      padding-right: 17px;
+    }
+  }
+
+  .banner-inner {
+    form {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      margin-bottom: 13px;
+    }
+
+    form label input[type="text"]::placeholder {
+      color: #ffc21a;
+      font-size: 10px;
+    }
+  }
+
+  /* banner category */
+
+  #banner-cat-slider {
+    & .owl-nav button {
+      left: -11px;
+    }
+
+    & .owl-nav button:last-child {
+      right: -11px;
+    }
+  }
+
+  .banner-inner-category {
+    border-right: none;
+  }
+
+  .breederform-popup-wrap {
+    h1 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    & .breederimg-popup-wrap {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  /* banner category */
+
+  /* BANNER */
+
+  /* ABOUT US */
+
+  .about-bg {
+    padding-left: 0px;
+    padding-right: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 1px;
+    padding-bottom: 32px;
+  }
+
+  .aboutus-wrap-in-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  .aboutus-wrap-in {
+    padding: 13px 16px;
+
+    span {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 27.6px;
+    }
+
+    a {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  /* ABOUT US */
+
+  /* NEAR YOU SEC CSS */
+
+  .newyear-cat-dog-wrap {
+    padding: 33px 0;
+
+    .newyear-content-card {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    #newyear-cat-dog-slider .owl-nav button {
+      left: -10px;
+    }
+
+    #newyear-cat-dog-slider .owl-nav button:last-child {
+      right: -10px;
+    }
+  }
+
+  /* NEAR YOU SEC CSS */
+
+  /* BETWEEN SEC BANNER CSS */
+
+  .between-bannershead-wrap {
+    padding: 0px 3px 3px 0px;
+    margin-top: -11px;
+    align-items: baseline;
+    justify-content: space-evenly;
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    img {
+      width: 100px;
+    }
+  }
+
+  .recentposted-cat-dog-wrap {
+    padding: 33px 0;
+
+    .recentposted-content-card {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    #recentposted-cat-dog-slider .owl-nav button {
+      left: -10px;
+    }
+
+    #recentposted-cat-dog-slider .owl-nav button:last-child {
+      right: -10px;
+    }
+  }
+
+  /* BETWEEN SEC BANNER CSS */
+
+  /* NEXT APP SEC CSS */
+
+  .nextpet-app-wrap {
+    padding: 36px 20px;
+  }
+
+  .nextpet-app-wrap-in-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .nextpet-app-wrap-in {
+    span {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 27.6px;
+    }
+
+    a img {
+      width: 100%;
+      height: auto;
+    }
+
+    .download-app-btns {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+    }
+  }
+
+  /* NEXT APP SEC CSS */
+
+  /* POPULAR BREDDER SEC CSS */
+
+  #popular-breeders-slider .owl-nav button {
+    left: -10px;
+  }
+
+  #popular-breeders-slider .owl-nav button:last-child {
+    right: -10px;
+  }
+
+  /* POPULAR BREDDER SEC CSS */
+
+  /* FOOTER SEC CSS */
+
+  .footer-wrap {
+    .footer-logo-wrap {
+      img {
+        width: 155px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 27.6px;
+      }
+    }
+
+    .footer-quick-links {
+      gap: 9px;
+      display: flex;
+      align-items: center;
+    }
+
+    .footer-bottom-wrap {
+      display: flex;
+
+      .download-footer-applink {
+        /* flex-direction: column; */
+        display: flex;
+      }
+
+      a img {
+        width: 100%;
+      }
+    }
+  }
+
+  /* FOOTER SEC CSS */
+
+  /* SIGN IN FLOW SEC CSS */
+
+  .influ-dropdown {
+    margin-left: 0;
+
+    .influ-btn {
+      width: 100%;
+    }
+  }
+
+  .breeder-signinflow-wrap {
+    padding: 37px 12px;
+
+    & .breeder-signinflow-inner {
+      flex-direction: column;
+      padding: 29px 10px;
+
+      & .breeder-signin-leftsec {
+        padding: 15px 7px;
+
+        img {
+          width: 151px;
+        }
+      }
+
+      .breeder-signin-rightsec {
+        padding: 6px 8px;
+
+        form {
+          padding: 28px 20px 28px 20px;
+        }
+
+        h1 {
+          color: #000;
+          font-family: "GoodDog New W00 Regular";
+          text-align: center;
+          font-size: 28px;
+          font-weight: 400;
+        }
+
+        .login-btn {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+
+        .rembr-me {
+          font-size: 14px;
+        }
+
+        .or-sec-wrap {
+          width: 100%;
+
+          h3 {
+            font-size: 12px;
+
+            &::before {
+              content: "";
+              border: 1px solid #000000;
+              width: 24%;
+              margin-right: 6px;
+            }
+          }
+        }
+
+        .social-login-wrap {
+          display: flex;
+          gap: 13px;
+        }
+
+        .terms-condition-paragraph {
+          a {
+            font-size: 14px;
+          }
+        }
+
+        & .dont-have-accountwrap {
+          p {
+            font-size: 14px;
+          }
+        }
+
+        & .otp-verification-input {
+          gap: 8px;
+
+          .inputs {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+    }
+  }
+
+  /* SIGN IN FLOW SEC CSS */
+
+  /* DASHBOARD CSS BREEDER */
+
+  .breeder-profile-wrap {
+    padding: 15px 10px;
+
+    .breeder-profile-inner {
+      padding: 20px 6px;
+
+      .profile-pic-wrap {
+        h1 {
+          font-size: 28px;
+          line-height: 28.46px;
+        }
+      }
+    }
+
+    .profile-form-wrap {
+      & .gallery-box-wrap {
+        flex-wrap: wrap;
+
+        .gallery-img-box {
+          width: 47%;
+        }
+      }
+
+      .profile-btn-wrap {
+        button {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+
+  .profileverify-popup-wrap {
+    padding: 18px 15px;
+
+    h1 {
+      font-size: 28px;
+    }
+
+    button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  .breedeerdasboard-profile-wrap {
+    .breedeerdasboard-profile-inner {
+      display: flex;
+
+      .breedeerdasboard-profile-left {
+        width: 50%;
+      }
+
+      .breedeerdasboard-profile-right {
+        padding: 24px 7px;
+        width: 100%;
+
+        .profile-pic-wrap {
+          h1 {
+            font-size: 28px;
+            line-height: 28.46px;
+          }
+
+          .edit-profile-icon {
+            right: 0;
+            top: -15px;
+
+            a img {
+              width: 45px;
+            }
+          }
+        }
+
+        .profile-form-wrap {
+          & .profile-btn-wrap {
+            button {
+              font-size: 14px;
+              padding: 10px 20px;
+            }
+          }
+
+          & .gallery-uploadedbox-wrap {
+            flex-wrap: wrap;
+
+            & .gallery-uploadedimg-box {
+              width: 47%;
+            }
+          }
+
+          & .coaching-wp {
+            p {
+              font-size: 14px;
+              line-height: 24.6px;
+            }
+          }
+
+          .available-plans-wp {
+            & .available-heading {
+              .tooltip:hover .tooltiptext {
+                visibility: visible;
+                width: 100%;
+                min-width: min-content;
+              }
+            }
+
+            & .available-plansbox-wrap {
+              flex-wrap: wrap;
+
+              .available-plans-box {
+                width: 100%;
+              }
+
+              .available-plans-btns {
+                button.active {
+                  font-size: 14px;
+                  padding: 10px 20px;
+                }
+
+                button {
+                  font-size: 14px;
+                  padding: 10px 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /* leads css */
+
+    .leads-right {
+      width: 100%;
+
+      h1 {
+        font-size: 28px;
+        line-height: 28.46px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+      }
+
+      .profile-btn-wrap {
+        button {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+      }
+
+      .dropdown-showfilter {
+        width: auto;
+      }
+
+      & .leads-card-wrap {
+        .leads-box {
+          width: 100%;
+          /* flex-direction: column; */
+        }
+
+        & .leads-content-wrap {
+          & .headinglead-wrap {
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+
+    /* leads css */
+
+    /* posts css */
+
+    .posts-right {
+      width: 100%;
+
+      .post-cards-wrap {
+        width: 48%;
+      }
+
+      h1 {
+        font-size: 28px;
+        line-height: 28.46px;
+      }
+
+      .heading-favourite {
+        justify-content: flex-start;
+        margin-bottom: 72px;
+        flex-direction: column;
+      }
+
+      .user-breeder-toggle {
+        width: 100%;
+        top: 48px;
+      }
+    }
+
+    /* posts css */
+  }
+
+  .conatctcpach-popup-wrap {
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  /* create post css */
+
+  .breedeerdasboard-createpost-wrap {
+    .breedeerdasboard-createpost-inner {
+      flex-direction: column;
+
+      & .breedeerdasboard-createpost-left {
+        width: 100%;
+      }
+
+      & .breedeerdasboard-createpost-right {
+        width: 100%;
+        padding: 3px 6px;
+
+        & form {
+          & .list-post-form {
+            .formdata-wrap:nth-child(odd) {
+              padding: 8px 3px 8px 9px;
+            }
+
+            .formdata-wrap:nth-child(even) {
+              padding: 8px 3px 8px 9px;
+            }
+
+            p {
+              font-size: 16px;
+              line-height: 27.6px;
+            }
+
+            textarea::placeholder {
+              font-size: 16px;
+            }
+
+            select {
+              width: 56%;
+            }
+
+            input[type="text"] {
+              width: 56%;
+            }
+
+            .switch-toggle {
+              width: 31%;
+            }
+
+            & .posts-btn-wrap {
+              button {
+                font-size: 14px;
+                padding: 10px 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* create post css */
+
+  /* subscription css */
+
+  .breedeerdasboard-subscription-wrap {
+    .breedeerdasboard-subscription-inner {
+      width: 100%;
+      height: auto;
+      display: flex;
+      /* flex-direction: column; */
+      gap: 20px;
+
+      & .breedeerdasboard-subscription-left {
+        width: 50%;
+      }
+
+      & .breedeerdasboard-subscription-right {
+        width: 100%;
+
+        h1 {
+          font-size: 28px;
+          line-height: 28.46px;
+        }
+
+        & .subscription-payment-wrap {
+          display: flex;
+          justify-content: flex-start;
+
+          .subscription-payment-box {
+            width: 48%;
+          }
+        }
+      }
+    }
+  }
+
+  /* subscription css */
+
+  /* DASHBOARD CSS BREEDER */
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* NAVBAR */
+
+  /* HOME */
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .nav-location {
+    margin: 20px 0;
+  }
+
+  .nav-wrap {
+    ul.navbar-nav {
+      gap: 20px;
+      align-items: stretch;
+    }
+
+    ul.navbar-nav li.nav-item a.breeder-signin {
+      margin-left: 0px;
+    }
+  }
+
+  .nav-wrap ul.navbar-nav li.nav-item:last-child a {
+    border-radius: 44px;
+    text-align: center;
+  }
+
+  .notification-list {
+    width: 100%;
+    min-width: 238px;
+  }
+
+  /* NAVBAR */
+
+  /* BANNER */
+
+  .banner-wrap {
+    padding: 29px 0 13px 0;
+
+    ::before {
+      background-image: url(/images/Nextpet-imgs/banner-imgs/banner-bg.jpg);
+      width: 100%;
+      height: 91%;
+      content: "";
+      position: absolute;
+      background-size: cover;
+      background-position: top right 0px;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  }
+
+  .dog-right-banner img {
+    width: 200px;
+    height: 271px;
+  }
+
+  .banner-inner {
+    h1 {
+      font-size: 35px;
+      font-weight: 400;
+      line-height: 39px;
+      margin-left: 0;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-family: Open Sans;
+      font-size: 18px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 18px;
+      line-height: 25.44px;
+      margin-left: 0;
+      text-align: center;
+    }
+
+    form label input[type="text"] {
+      width: 100%;
+      height: 100%;
+      border: none;
+      padding-left: 24px;
+      padding-right: 17px;
+    }
+  }
+
+  .banner-inner {
+    form {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      margin-bottom: 13px;
+    }
+
+    form label input[type="text"]::placeholder {
+      color: #ffc21a;
+      font-size: 10px;
+    }
+  }
+
+  /* banner category */
+
+  #banner-cat-slider {
+    & .owl-nav button {
+      left: -11px;
+    }
+
+    & .owl-nav button:last-child {
+      right: -11px;
+    }
+  }
+
+  .banner-inner-category {
+    border-right: none;
+  }
+
+  .breederform-popup-wrap {
+    h1 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    & .breederimg-popup-wrap {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  /* banner category */
+
+  /* BANNER */
+
+  /* ABOUT US */
+
+  .about-bg {
+    padding-left: 0px;
+    padding-right: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 1px;
+    padding-bottom: 32px;
+  }
+
+  .aboutus-wrap-in-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  .aboutus-wrap-in {
+    padding: 13px 16px;
+
+    span {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 27.6px;
+    }
+
+    a {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  /* ABOUT US */
+
+  /* NEAR YOU SEC CSS */
+
+  .newyear-cat-dog-wrap {
+    padding: 33px 0;
+
+    .newyear-content-card {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    #newyear-cat-dog-slider .owl-nav button {
+      left: -10px;
+    }
+
+    #newyear-cat-dog-slider .owl-nav button:last-child {
+      right: -10px;
+    }
+  }
+
+  /* NEAR YOU SEC CSS */
+
+  /* BETWEEN SEC BANNER CSS */
+
+  .between-bannershead-wrap {
+    padding: 0px 3px 3px 0px;
+    margin-top: -11px;
+    align-items: baseline;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    img {
+      width: 100px;
+    }
+  }
+
+  .recentposted-cat-dog-wrap {
+    padding: 33px 0;
+
+    .recentposted-content-card {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    #recentposted-cat-dog-slider .owl-nav button {
+      left: -10px;
+    }
+
+    #recentposted-cat-dog-slider .owl-nav button:last-child {
+      right: -10px;
+    }
+  }
+
+  /* BETWEEN SEC BANNER CSS */
+
+  /* NEXT APP SEC CSS */
+
+  .nextpet-app-wrap {
+    padding: 36px 20px;
+  }
+
+  .nextpet-app-wrap-in-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .nextpet-app-wrap-in {
+    span {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 27.6px;
+    }
+
+    a img {
+      width: 100%;
+      height: auto;
+    }
+
+    .download-app-btns {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+    }
+  }
+
+  /* NEXT APP SEC CSS */
+
+  /* POPULAR BREDDER SEC CSS */
+
+  #popular-breeders-slider .owl-nav button {
+    left: -10px;
+  }
+
+  #popular-breeders-slider .owl-nav button:last-child {
+    right: -10px;
+  }
+
+  /* POPULAR BREDDER SEC CSS */
+
+  /* FOOTER SEC CSS */
+
+  .footer-wrap {
+    .footer-logo-wrap {
+      img {
+        width: 155px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 27.6px;
+      }
+    }
+
+    .footer-quick-links {
+      gap: 9px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .footer-bottom-wrap {
+      flex-direction: column;
+
+      .download-footer-applink {
+        flex-direction: column;
+      }
+
+      a img {
+        width: 100%;
+      }
+    }
+  }
+
+  /* FOOTER SEC CSS */
+
+  /* SIGN IN FLOW SEC CSS */
+
+  .influ-dropdown {
+    margin-left: 0;
+
+    .influ-btn {
+      width: 100%;
+    }
+  }
+
+  .breeder-signinflow-wrap {
+    padding: 37px 12px;
+
+    & .breeder-signinflow-inner {
+      flex-direction: column;
+      padding: 29px 10px;
+
+      & .breeder-signin-leftsec {
+        padding: 15px 7px;
+
+        img {
+          width: 151px;
+        }
+      }
+
+      .breeder-signin-rightsec {
+        padding: 6px 8px;
+
+        form {
+          padding: 28px 20px 28px 20px;
+        }
+
+        h1 {
+          color: #000;
+          font-family: "GoodDog New W00 Regular";
+          text-align: center;
+          font-size: 28px;
+          font-weight: 400;
+        }
+
+        .login-btn {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+
+        .login-txt {
+          font-size: 14px;
+          padding: 0px 63px 0px 48px;
+        }
+
+        .rembr-me {
+          font-size: 14px;
+        }
+
+        .or-sec-wrap {
+          width: 100%;
+
+          h3 {
+            font-size: 12px;
+
+            &::before {
+              content: "";
+              border: 1px solid #000000;
+              width: 24%;
+              margin-right: 6px;
+            }
+          }
+        }
+
+        .social-login-wrap {
+          display: flex;
+          gap: 13px;
+        }
+
+        .terms-condition-paragraph {
+          a {
+            font-size: 14px;
+          }
+        }
+
+        & .dont-have-accountwrap {
+          p {
+            font-size: 14px;
+          }
+        }
+
+        & .otp-verification-input {
+          gap: 8px;
+
+          .inputs {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+    }
+  }
+
+  /* SIGN IN FLOW SEC CSS */
+
+  /* DASHBOARD CSS BREEDER */
+
+  .breeder-profile-wrap {
+    padding: 15px 10px;
+
+    .breeder-profile-inner {
+      padding: 20px 6px;
+
+      .profile-pic-wrap {
+        h1 {
+          font-size: 28px;
+          line-height: 28.46px;
+        }
+      }
+    }
+
+    .profile-form-wrap {
+      & .gallery-box-wrap {
+        flex-wrap: wrap;
+
+        .gallery-img-box {
+          width: 47%;
+        }
+      }
+
+      .profile-btn-wrap {
+        button {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+
+  .profileverify-popup-wrap {
+    padding: 18px 15px;
+
+    h1 {
+      font-size: 28px;
+    }
+
+    button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  .breedeerdasboard-profile-wrap {
+    .breedeerdasboard-profile-inner {
+      flex-direction: column;
+
+      .breedeerdasboard-profile-left {
+        width: 100%;
+      }
+
+      .breedeerdasboard-profile-right {
+        padding: 24px 7px;
+        width: 100%;
+
+        .profile-pic-wrap {
+          h1 {
+            font-size: 28px;
+            line-height: 28.46px;
+          }
+
+          .edit-profile-icon {
+            right: 0;
+            top: -15px;
+
+            a img {
+              width: 45px;
+            }
+          }
+        }
+
+        .profile-form-wrap {
+          & .profile-btn-wrap {
+            button {
+              font-size: 14px;
+              padding: 10px 20px;
+            }
+          }
+
+          & .gallery-uploadedbox-wrap {
+            flex-wrap: wrap;
+
+            & .gallery-uploadedimg-box {
+              width: 47%;
+            }
+          }
+
+          & .coaching-wp {
+            p {
+              font-size: 14px;
+              line-height: 24.6px;
+            }
+          }
+
+          .available-plans-wp {
+            & .available-heading {
+              .tooltip:hover .tooltiptext {
+                visibility: visible;
+                width: 100%;
+                min-width: min-content;
+              }
+            }
+
+            & .available-plansbox-wrap {
+              flex-wrap: wrap;
+
+              .available-plans-box {
+                width: 100%;
+              }
+
+              .available-plans-btns {
+                button.active {
+                  font-size: 14px;
+                  padding: 10px 20px;
+                }
+
+                button {
+                  font-size: 14px;
+                  padding: 10px 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /* leads css */
+
+    .leads-right {
+      width: 100%;
+
+      h1 {
+        font-size: 28px;
+        line-height: 28.46px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+      }
+
+      .profile-btn-wrap {
+        button {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+      }
+
+      .dropdown-showfilter {
+        width: auto;
+      }
+
+      & .leads-card-wrap {
+        .leads-box {
+          width: 100%;
+          flex-direction: column;
+        }
+
+        & .leads-content-wrap {
+          & .headinglead-wrap {
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+
+    /* leads css */
+
+    /* posts css */
+
+    .posts-right {
+      width: 100%;
+
+      .post-cards-wrap {
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 28px;
+        line-height: 28.46px;
+      }
+
+      .heading-favourite {
+        justify-content: flex-start;
+        margin-bottom: 72px;
+        flex-direction: column;
+      }
+
+      .user-breeder-toggle {
+        width: 100%;
+        top: 48px;
+      }
+    }
+
+    /* posts css */
+  }
+
+  .conatctcpach-popup-wrap {
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  /* create post css */
+
+  .breedeerdasboard-createpost-wrap {
+    .breedeerdasboard-createpost-inner {
+      flex-direction: column;
+
+      & .breedeerdasboard-createpost-left {
+        width: 100%;
+      }
+
+      & .breedeerdasboard-createpost-right {
+        width: 100%;
+        padding: 3px 6px;
+
+        & form {
+          & .list-post-form {
+            .formdata-wrap:nth-child(odd) {
+              padding: 8px 3px 8px 9px;
+            }
+
+            .formdata-wrap:nth-child(even) {
+              padding: 8px 3px 8px 9px;
+            }
+
+            p {
+              font-size: 16px;
+              line-height: 27.6px;
+            }
+
+            textarea::placeholder {
+              font-size: 16px;
+            }
+
+            select {
+              width: 56%;
+            }
+
+            input[type="text"] {
+              width: 56%;
+            }
+
+            .switch-toggle {
+              width: 31%;
+            }
+
+            & .posts-btn-wrap {
+              button {
+                font-size: 14px;
+                padding: 10px 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* create post css */
+
+  /* subscription css */
+
+  .breedeerdasboard-subscription-wrap {
+    .breedeerdasboard-subscription-inner {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      & .breedeerdasboard-subscription-left {
+        width: 100%;
+      }
+
+      & .breedeerdasboard-subscription-right {
+        width: 100%;
+
+        h1 {
+          font-size: 28px;
+          line-height: 28.46px;
+        }
+
+        & .subscription-payment-wrap {
+          flex-direction: column;
+
+          .subscription-payment-box {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  /* subscription css */
+
+  /* DASHBOARD CSS BREEDER */
+}
+
+@media only screen and (min-width: 390px) and (max-width: 479px) {
+  /* NAVBAR */
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .nav-location {
+    margin: 20px 0;
+  }
+
+  .nav-wrap {
+    ul.navbar-nav {
+      gap: 20px;
+      align-items: stretch;
+    }
+
+    ul.navbar-nav li.nav-item a.breeder-signin {
+      margin-left: 0px;
+    }
+  }
+
+  .nav-wrap ul.navbar-nav li.nav-item:last-child a {
+    border-radius: 44px;
+    text-align: center;
+  }
+
+  .notification-list {
+    width: 100%;
+    min-width: 238px;
+  }
+
+  /* NAVBAR */
+
+  /* BANNER */
+
+  .banner-wrap {
+    padding: 29px 0 13px 0;
+
+    ::before {
+      background-image: url(/images/Nextpet-imgs/banner-imgs/banner-bg.jpg);
+      width: 100%;
+      height: 91%;
+      content: "";
+      position: absolute;
+      background-size: cover;
+      background-position: top right 0px;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  }
+
+  .dog-right-banner img {
+    width: 200px;
+    height: 271px;
+  }
+
+  .banner-inner {
+    h1 {
+      font-size: 35px;
+      font-weight: 400;
+      line-height: 39px;
+      margin-left: 0;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-family: Open Sans;
+      font-size: 18px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 18px;
+      line-height: 25.44px;
+      margin-left: 0;
+      text-align: center;
+    }
+
+    form label input[type="text"] {
+      width: 100%;
+      height: 100%;
+      border: none;
+      padding-left: 24px;
+      padding-right: 17px;
+    }
+  }
+
+  .banner-inner {
+    form {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      margin-bottom: 13px;
+    }
+
+    form label input[type="text"]::placeholder {
+      color: #ffc21a;
+      font-size: 10px;
+    }
+  }
+
+  /* banner category */
+
+  #banner-cat-slider {
+    & .owl-nav button {
+      left: -11px;
+    }
+
+    & .owl-nav button:last-child {
+      right: -11px;
+    }
+  }
+
+  .banner-inner-category {
+    border-right: none;
+  }
+
+  .breederform-popup-wrap {
+    h1 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    & .breederimg-popup-wrap {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  /* banner category */
+
+  /* BANNER */
+
+  /* ABOUT US */
+
+  .about-bg {
+    padding-left: 0px;
+    padding-right: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 1px;
+    padding-bottom: 32px;
+  }
+
+  .aboutus-wrap-in-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  .aboutus-wrap-in {
+    padding: 13px 16px;
+
+    span {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 27.6px;
+    }
+
+    a {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  /* ABOUT US */
+
+  /* NEAR YOU SEC CSS */
+
+  .newyear-cat-dog-wrap {
+    padding: 33px 0;
+
+    .newyear-content-card {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    #newyear-cat-dog-slider .owl-nav button {
+      left: -10px;
+    }
+
+    #newyear-cat-dog-slider .owl-nav button:last-child {
+      right: -10px;
+    }
+  }
+
+  /* NEAR YOU SEC CSS */
+
+  /* BETWEEN SEC BANNER CSS */
+
+  .between-bannershead-wrap {
+    padding: 0px 3px 3px 0px;
+    margin-top: -11px;
+    align-items: baseline;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    img {
+      width: 100px;
+    }
+  }
+
+  .recentposted-cat-dog-wrap {
+    padding: 33px 0;
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    #recentposted-cat-dog-slider .owl-nav button {
+      left: -10px;
+    }
+
+    #recentposted-cat-dog-slider .owl-nav button:last-child {
+      right: -10px;
+    }
+  }
+
+  /* BETWEEN SEC BANNER CSS */
+
+  /* NEXT APP SEC CSS */
+
+  .nextpet-app-wrap {
+    padding: 36px 20px;
+  }
+
+  .nextpet-app-wrap-in-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .nextpet-app-wrap-in {
+    span {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 27.6px;
+    }
+
+    a img {
+      width: 100%;
+      height: auto;
+    }
+
+    .download-app-btns {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+    }
+  }
+
+  /* NEXT APP SEC CSS */
+
+  /* POPULAR BREDDER SEC CSS */
+
+  #popular-breeders-slider .owl-nav button {
+    left: -10px;
+  }
+
+  #popular-breeders-slider .owl-nav button:last-child {
+    right: -10px;
+  }
+
+  /* POPULAR BREDDER SEC CSS */
+
+  /* FOOTER SEC CSS */
+
+  .footer-wrap {
+    .footer-logo-wrap {
+      img {
+        width: 155px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 27.6px;
+      }
+    }
+
+    .footer-quick-links {
+      gap: 9px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .footer-bottom-wrap {
+      flex-direction: column;
+
+      .download-footer-applink {
+        flex-direction: column;
+      }
+
+      a img {
+        width: 100%;
+      }
+    }
+  }
+
+  /* FOOTER SEC CSS */
+
+  /* SIGN IN FLOW SEC CSS */
+
+  .influ-dropdown {
+    margin-left: 0;
+
+    .influ-btn {
+      width: 100%;
+    }
+  }
+
+  .breeder-signinflow-wrap {
+    padding: 37px 12px;
+
+    & .breeder-signinflow-inner {
+      flex-direction: column;
+      padding: 29px 10px;
+
+      & .breeder-signin-leftsec {
+        padding: 15px 7px;
+
+        img {
+          width: 151px;
+        }
+      }
+
+      .breeder-signin-rightsec {
+        padding: 6px 8px;
+
+        form {
+          padding: 28px 20px 28px 20px;
+        }
+
+        h1 {
+          color: #000;
+          font-family: "GoodDog New W00 Regular";
+          text-align: center;
+          font-size: 28px;
+          font-weight: 400;
+        }
+
+        .login-btn {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+
+        .login-txt {
+          font-size: 12px;
+          padding: 0px 63px 0px 48px;
+        }
+
+        .rembr-me {
+          font-size: 14px;
+        }
+
+        .or-sec-wrap {
+          width: 100%;
+
+          h3 {
+            font-size: 12px;
+
+            &::before {
+              content: "";
+              border: 1px solid #000000;
+              width: 24%;
+              margin-right: 6px;
+            }
+          }
+        }
+
+        .social-login-wrap {
+          display: flex;
+          gap: 13px;
+        }
+
+        .terms-condition-paragraph {
+          a {
+            font-size: 14px;
+          }
+        }
+
+        & .dont-have-accountwrap {
+          p {
+            font-size: 14px;
+          }
+        }
+
+        & .otp-verification-input {
+          gap: 8px;
+
+          .inputs {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  /* SIGN IN FLOW SEC CSS */
+
+  /* DASHBOARD CSS BREEDER */
+
+  .breeder-profile-wrap {
+    padding: 15px 10px;
+
+    .breeder-profile-inner {
+      padding: 20px 6px;
+
+      .profile-pic-wrap {
+        h1 {
+          font-size: 28px;
+          line-height: 28.46px;
+        }
+      }
+    }
+
+    .profile-form-wrap {
+      & .gallery-box-wrap {
+        flex-wrap: wrap;
+
+        .gallery-img-box {
+          width: 47%;
+        }
+      }
+
+      .profile-btn-wrap {
+        button {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+
+  .profileverify-popup-wrap {
+    padding: 18px 15px;
+
+    h1 {
+      font-size: 28px;
+    }
+
+    button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  .breedeerdasboard-profile-wrap {
+    .breedeerdasboard-profile-inner {
+      flex-direction: column;
+
+      .breedeerdasboard-profile-left {
+        width: 100%;
+      }
+
+      .breedeerdasboard-profile-right {
+        padding: 24px 7px;
+        width: 100%;
+
+        .profile-pic-wrap {
+          h1 {
+            font-size: 28px;
+            line-height: 28.46px;
+          }
+
+          .edit-profile-icon {
+            right: 0;
+            top: -15px;
+
+            a img {
+              width: 45px;
+            }
+          }
+        }
+
+        .profile-form-wrap {
+          & .profile-btn-wrap {
+            button {
+              font-size: 14px;
+              padding: 10px 20px;
+            }
+          }
+
+          & .gallery-uploadedbox-wrap {
+            flex-wrap: wrap;
+
+            & .gallery-uploadedimg-box {
+              width: 47%;
+            }
+          }
+
+          & .coaching-wp {
+            p {
+              font-size: 14px;
+              line-height: 24.6px;
+            }
+          }
+
+          .available-plans-wp {
+            & .available-heading {
+              .tooltip:hover .tooltiptext {
+                visibility: visible;
+                width: 100%;
+                min-width: min-content;
+              }
+            }
+
+            & .available-plansbox-wrap {
+              flex-wrap: wrap;
+
+              .available-plans-box {
+                width: 100%;
+              }
+
+              .available-plans-btns {
+                button.active {
+                  font-size: 14px;
+                  padding: 10px 20px;
+                }
+
+                button {
+                  font-size: 14px;
+                  padding: 10px 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /* leads css */
+
+    .leads-right {
+      width: 100%;
+
+      h1 {
+        font-size: 28px;
+        line-height: 28.46px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+      }
+
+      .profile-btn-wrap {
+        button {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+      }
+
+      .dropdown-showfilter {
+        width: auto;
+      }
+
+      & .leads-card-wrap {
+        .leads-box {
+          width: 100%;
+          flex-direction: column;
+        }
+
+        & .leads-content-wrap {
+          & .headinglead-wrap {
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+
+    /* leads css */
+
+    /* posts css */
+
+    .posts-right {
+      width: 100%;
+
+      .post-cards-wrap {
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 28px;
+        line-height: 28.46px;
+      }
+
+      .heading-favourite {
+        justify-content: flex-start;
+        margin-bottom: 72px;
+        flex-direction: column;
+      }
+
+      .user-breeder-toggle {
+        width: 100%;
+        top: 48px;
+      }
+    }
+
+    /* posts css */
+  }
+
+  .conatctcpach-popup-wrap {
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  /* create post css */
+
+  .breedeerdasboard-createpost-wrap {
+    .breedeerdasboard-createpost-inner {
+      flex-direction: column;
+
+      & .breedeerdasboard-createpost-left {
+        width: 100%;
+      }
+
+      & .breedeerdasboard-createpost-right {
+        width: 100%;
+        padding: 3px 6px;
+
+        & form {
+          & .list-post-form {
+            .formdata-wrap:nth-child(odd) {
+              padding: 8px 3px 8px 9px;
+            }
+
+            .formdata-wrap:nth-child(even) {
+              padding: 8px 3px 8px 9px;
+            }
+
+            p {
+              font-size: 16px;
+              line-height: 27.6px;
+            }
+
+            textarea::placeholder {
+              font-size: 16px;
+            }
+
+            select {
+              width: 56%;
+            }
+
+            input[type="text"] {
+              width: 56%;
+            }
+
+            .switch-toggle {
+              width: 31%;
+            }
+
+            & .posts-btn-wrap {
+              button {
+                font-size: 14px;
+                padding: 10px 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* create post css */
+
+  /* subscription css */
+
+  .breedeerdasboard-subscription-wrap {
+    .breedeerdasboard-subscription-inner {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      & .breedeerdasboard-subscription-left {
+        width: 100%;
+      }
+
+      & .breedeerdasboard-subscription-right {
+        width: 100%;
+
+        h1 {
+          font-size: 28px;
+          line-height: 28.46px;
+        }
+
+        & .subscription-payment-wrap {
+          flex-direction: column;
+
+          .subscription-payment-box {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  /* subscription css */
+
+  /* DASHBOARD CSS BREEDER */
+}
+
+@media only screen and (min-width: 360px) and (max-width: 389px) {
+  /* NAVBAR */
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .nav-location {
+    margin: 20px 0;
+  }
+
+  .nav-wrap {
+    ul.navbar-nav {
+      gap: 20px;
+      align-items: stretch;
+    }
+
+    ul.navbar-nav li.nav-item a.breeder-signin {
+      margin-left: 0px;
+    }
+  }
+
+  .nav-wrap ul.navbar-nav li.nav-item:last-child a {
+    border-radius: 44px;
+    text-align: center;
+  }
+
+  .notification-list {
+    width: 100%;
+    min-width: 238px;
+  }
+
+  /* NAVBAR */
+
+  /* BANNER */
+
+  .banner-wrap {
+    padding: 29px 0 13px 0;
+
+    ::before {
+      background-image: url(/images/Nextpet-imgs/banner-imgs/banner-bg.jpg);
+      width: 100%;
+      height: 91%;
+      content: "";
+      position: absolute;
+      background-size: cover;
+      background-position: top right 0px;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  }
+
+  .dog-right-banner img {
+    width: 200px;
+    height: 271px;
+  }
+
+  .banner-inner {
+    h1 {
+      font-size: 35px;
+      font-weight: 400;
+      line-height: 39px;
+      margin-left: 0;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-family: Open Sans;
+      font-size: 18px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 18px;
+      line-height: 25.44px;
+      margin-left: 0;
+      text-align: center;
+    }
+
+    form label input[type="text"] {
+      width: 100%;
+      height: 100%;
+      border: none;
+      padding-left: 24px;
+      padding-right: 17px;
+    }
+  }
+
+  .banner-inner {
+    form {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      margin-bottom: 13px;
+    }
+
+    form label input[type="text"]::placeholder {
+      color: #ffc21a;
+      font-size: 10px;
+    }
+  }
+
+  /* banner category */
+
+  #banner-cat-slider {
+    & .owl-nav button {
+      left: -11px;
+    }
+
+    & .owl-nav button:last-child {
+      right: -11px;
+    }
+  }
+
+  .banner-inner-category {
+    border-right: none;
+  }
+
+  .breederform-popup-wrap {
+    h1 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    & .breederimg-popup-wrap {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  /* banner category */
+
+  /* BANNER */
+
+  /* ABOUT US */
+
+  .about-bg {
+    padding-left: 0px;
+    padding-right: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 1px;
+    padding-bottom: 32px;
+  }
+
+  .aboutus-wrap-in-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  .aboutus-wrap-in {
+    padding: 13px 16px;
+
+    span {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 27.6px;
+    }
+
+    a {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  /* ABOUT US */
+
+  /* NEAR YOU SEC CSS */
+
+  .newyear-cat-dog-wrap {
+    padding: 33px 0;
+
+    .newyear-content-card {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    #newyear-cat-dog-slider .owl-nav button {
+      left: -10px;
+    }
+
+    #newyear-cat-dog-slider .owl-nav button:last-child {
+      right: -10px;
+    }
+  }
+
+  /* NEAR YOU SEC CSS */
+
+  /* BETWEEN SEC BANNER CSS */
+
+  .between-bannershead-wrap {
+    padding: 0px 3px 3px 0px;
+    margin-top: -11px;
+    align-items: baseline;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    img {
+      width: 100px;
+    }
+  }
+
+  .recentposted-cat-dog-wrap {
+    padding: 33px 0;
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    #recentposted-cat-dog-slider .owl-nav button {
+      left: -10px;
+    }
+
+    #recentposted-cat-dog-slider .owl-nav button:last-child {
+      right: -10px;
+    }
+  }
+
+  /* BETWEEN SEC BANNER CSS */
+
+  /* NEXT APP SEC CSS */
+
+  .nextpet-app-wrap {
+    padding: 36px 20px;
+  }
+
+  .nextpet-app-wrap-in-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .nextpet-app-wrap-in {
+    span {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 27.6px;
+    }
+
+    a img {
+      width: 100%;
+      height: auto;
+    }
+
+    .download-app-btns {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+    }
+  }
+
+  /* NEXT APP SEC CSS */
+
+  /* POPULAR BREDDER SEC CSS */
+
+  #popular-breeders-slider .owl-nav button {
+    left: -10px;
+  }
+
+  #popular-breeders-slider .owl-nav button:last-child {
+    right: -10px;
+  }
+
+  /* POPULAR BREDDER SEC CSS */
+
+  /* FOOTER SEC CSS */
+
+  .footer-wrap {
+    .footer-logo-wrap {
+      img {
+        width: 155px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 27.6px;
+      }
+    }
+
+    .footer-quick-links {
+      gap: 9px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .footer-bottom-wrap {
+      flex-direction: column;
+
+      .download-footer-applink {
+        flex-direction: column;
+      }
+
+      a img {
+        width: 100%;
+      }
+    }
+  }
+
+  /* FOOTER SEC CSS */
+
+  /* SIGN IN FLOW SEC CSS */
+
+  .influ-dropdown {
+    margin-left: 0;
+
+    .influ-btn {
+      width: 100%;
+    }
+  }
+
+  .breeder-signinflow-wrap {
+    padding: 37px 12px;
+
+    & .breeder-signinflow-inner {
+      flex-direction: column;
+      padding: 29px 10px;
+
+      & .breeder-signin-leftsec {
+        padding: 15px 7px;
+
+        img {
+          width: 151px;
+        }
+      }
+
+      .breeder-signin-rightsec {
+        padding: 6px 8px;
+
+        form {
+          padding: 28px 20px 28px 20px;
+        }
+
+        h1 {
+          color: #000;
+          font-family: "GoodDog New W00 Regular";
+          text-align: center;
+          font-size: 28px;
+          font-weight: 400;
+        }
+
+        .login-btn {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+
+        .login-txt {
+          font-size: 11px;
+          padding: 0px 63px 0px 48px;
+        }
+
+        .rembr-me {
+          font-size: 14px;
+        }
+
+        .or-sec-wrap {
+          width: 100%;
+
+          h3 {
+            font-size: 12px;
+
+            &::before {
+              content: "";
+              border: 1px solid #000000;
+              width: 24%;
+              margin-right: 6px;
+            }
+          }
+        }
+
+        .social-login-wrap {
+          display: flex;
+          gap: 13px;
+        }
+
+        .terms-condition-paragraph {
+          a {
+            font-size: 14px;
+          }
+        }
+
+        & .dont-have-accountwrap {
+          p {
+            font-size: 14px;
+          }
+        }
+
+        & .otp-verification-input {
+          gap: 8px;
+
+          .inputs {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  /* SIGN IN FLOW SEC CSS */
+
+  /* DASHBOARD CSS BREEDER */
+
+  .breeder-profile-wrap {
+    padding: 15px 10px;
+
+    .breeder-profile-inner {
+      padding: 20px 6px;
+
+      .profile-pic-wrap {
+        h1 {
+          font-size: 28px;
+          line-height: 28.46px;
+        }
+      }
+    }
+
+    .profile-form-wrap {
+      & .gallery-box-wrap {
+        flex-wrap: wrap;
+
+        .gallery-img-box {
+          width: 47%;
+        }
+      }
+
+      .profile-btn-wrap {
+        button {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+
+  .profileverify-popup-wrap {
+    padding: 18px 15px;
+
+    h1 {
+      font-size: 28px;
+    }
+
+    button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  .breedeerdasboard-profile-wrap {
+    .breedeerdasboard-profile-inner {
+      flex-direction: column;
+
+      .breedeerdasboard-profile-left {
+        width: 100%;
+      }
+
+      .breedeerdasboard-profile-right {
+        padding: 24px 7px;
+        width: 100%;
+
+        .profile-pic-wrap {
+          h1 {
+            font-size: 28px;
+            line-height: 28.46px;
+          }
+
+          .edit-profile-icon {
+            right: 0;
+            top: -15px;
+
+            a img {
+              width: 45px;
+            }
+          }
+        }
+
+        .profile-form-wrap {
+          & .profile-btn-wrap {
+            button {
+              font-size: 14px;
+              padding: 10px 20px;
+            }
+          }
+
+          & .gallery-uploadedbox-wrap {
+            flex-wrap: wrap;
+
+            & .gallery-uploadedimg-box {
+              width: 47%;
+            }
+          }
+
+          & .coaching-wp {
+            p {
+              font-size: 14px;
+              line-height: 24.6px;
+            }
+          }
+
+          .available-plans-wp {
+            & .available-heading {
+              .tooltip:hover .tooltiptext {
+                visibility: visible;
+                width: 100%;
+                min-width: min-content;
+              }
+            }
+
+            & .available-plansbox-wrap {
+              flex-wrap: wrap;
+
+              .available-plans-box {
+                width: 100%;
+              }
+
+              .available-plans-btns {
+                button.active {
+                  font-size: 14px;
+                  padding: 10px 20px;
+                }
+
+                button {
+                  font-size: 14px;
+                  padding: 10px 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /* leads css */
+
+    .leads-right {
+      width: 100%;
+
+      h1 {
+        font-size: 28px;
+        line-height: 28.46px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+      }
+
+      .profile-btn-wrap {
+        button {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+      }
+
+      .dropdown-showfilter {
+        width: auto;
+      }
+
+      & .leads-card-wrap {
+        .leads-box {
+          width: 100%;
+          flex-direction: column;
+        }
+
+        & .leads-content-wrap {
+          & .headinglead-wrap {
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+
+    /* leads css */
+
+    /* posts css */
+
+    .posts-right {
+      width: 100%;
+
+      .post-cards-wrap {
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 28px;
+        line-height: 28.46px;
+      }
+
+      .heading-favourite {
+        justify-content: flex-start;
+        margin-bottom: 72px;
+        flex-direction: column;
+      }
+
+      .user-breeder-toggle {
+        width: 100%;
+        top: 48px;
+      }
+    }
+
+    /* posts css */
+  }
+
+  .conatctcpach-popup-wrap {
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  /* create post css */
+
+  .breedeerdasboard-createpost-wrap {
+    .breedeerdasboard-createpost-inner {
+      flex-direction: column;
+
+      & .breedeerdasboard-createpost-left {
+        width: 100%;
+      }
+
+      & .breedeerdasboard-createpost-right {
+        width: 100%;
+        padding: 3px 6px;
+
+        & form {
+          & .list-post-form {
+            .formdata-wrap:nth-child(odd) {
+              padding: 8px 3px 8px 9px;
+            }
+
+            .formdata-wrap:nth-child(even) {
+              padding: 8px 3px 8px 9px;
+            }
+
+            p {
+              font-size: 16px;
+              line-height: 27.6px;
+            }
+
+            textarea::placeholder {
+              font-size: 16px;
+            }
+
+            select {
+              width: 56%;
+            }
+
+            input[type="text"] {
+              width: 56%;
+            }
+
+            .switch-toggle {
+              width: 31%;
+            }
+
+            & .posts-btn-wrap {
+              button {
+                font-size: 14px;
+                padding: 10px 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* create post css */
+
+  /* subscription css */
+
+  .breedeerdasboard-subscription-wrap {
+    .breedeerdasboard-subscription-inner {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      & .breedeerdasboard-subscription-left {
+        width: 100%;
+      }
+
+      & .breedeerdasboard-subscription-right {
+        width: 100%;
+
+        h1 {
+          font-size: 28px;
+          line-height: 28.46px;
+        }
+
+        & .subscription-payment-wrap {
+          flex-direction: column;
+
+          .subscription-payment-box {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  /* subscription css */
+
+  /* DASHBOARD CSS BREEDER */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+  /* NAVBAR */
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .nav-location {
+    margin: 20px 0;
+  }
+
+  .nav-wrap {
+    ul.navbar-nav {
+      gap: 20px;
+      align-items: stretch;
+    }
+
+    ul.navbar-nav li.nav-item a.breeder-signin {
+      margin-left: 0px;
+      border-radius: 44px;
+      text-align: center;
+    }
+  }
+
+  .notification-list {
+    width: 100%;
+    min-width: 238px;
+  }
+
+  /* NAVBAR */
+
+  /* BANNER */
+
+  .banner-wrap {
+    padding: 29px 0 13px 0;
+
+    ::before {
+      background-image: url(/images/Nextpet-imgs/banner-imgs/banner-bg.jpg);
+      width: 100%;
+      height: 91%;
+      content: "";
+      position: absolute;
+      background-size: cover;
+      background-position: top right 0px;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  }
+
+  .dog-right-banner img {
+    width: 200px;
+    height: 271px;
+  }
+
+  .banner-inner {
+    h1 {
+      font-size: 35px;
+      font-weight: 400;
+      line-height: 39px;
+      margin-left: 0;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-family: Open Sans;
+      font-size: 18px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 18px;
+      line-height: 25.44px;
+      margin-left: 0;
+      text-align: center;
+    }
+
+    form label input[type="text"] {
+      width: 100%;
+      height: 100%;
+      border: none;
+      padding-left: 24px;
+      padding-right: 17px;
+    }
+  }
+
+  .banner-inner {
+    form {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      margin-bottom: 13px;
+    }
+
+    form label input[type="text"]::placeholder {
+      color: #ffc21a;
+      font-size: 10px;
+    }
+  }
+
+  /* banner category */
+
+  #banner-cat-slider {
+    & .owl-nav button {
+      left: -11px;
+    }
+
+    & .owl-nav button:last-child {
+      right: -11px;
+    }
+  }
+
+  .banner-inner-category {
+    border-right: none;
+  }
+
+  .breederform-popup-wrap {
+    h1 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    & .breederimg-popup-wrap {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  /* banner category */
+
+  /* BANNER */
+
+  /* ABOUT US */
+
+  .about-bg {
+    padding-left: 0px;
+    padding-right: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 1px;
+    padding-bottom: 32px;
+  }
+
+  .aboutus-wrap-in-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  .aboutus-wrap-in {
+    padding: 13px 16px;
+
+    span {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 27.6px;
+    }
+
+    a {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  /* ABOUT US */
+
+  /* NEAR YOU SEC CSS */
+
+  .newyear-cat-dog-wrap {
+    padding: 33px 0;
+
+    .newyear-content-card {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    #newyear-cat-dog-slider .owl-nav button {
+      left: -10px;
+    }
+
+    #newyear-cat-dog-slider .owl-nav button:last-child {
+      right: -10px;
+    }
+  }
+
+  /* NEAR YOU SEC CSS */
+
+  /* BETWEEN SEC BANNER CSS */
+
+  .between-bannershead-wrap {
+    padding: 0px 3px 3px 0px;
+    margin-top: -11px;
+    align-items: baseline;
+    justify-content: center;
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    img {
+      width: 100px;
+    }
+  }
+
+  .recentposted-cat-dog-wrap {
+    padding: 33px 0;
+
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    #recentposted-cat-dog-slider .owl-nav button {
+      left: -10px;
+    }
+
+    #recentposted-cat-dog-slider .owl-nav button:last-child {
+      right: -10px;
+    }
+  }
+
+  /* BETWEEN SEC BANNER CSS */
+
+  /* NEXT APP SEC CSS */
+
+  .nextpet-app-wrap {
+    padding: 36px 20px;
+  }
+
+  .nextpet-app-wrap-in-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .nextpet-app-wrap-in {
+    span {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 27.6px;
+    }
+
+    a img {
+      width: 100%;
+      height: auto;
+    }
+
+    .download-app-btns {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+    }
+  }
+
+  /* NEXT APP SEC CSS */
+
+  /* POPULAR BREDDER SEC CSS */
+
+  #popular-breeders-slider .owl-nav button {
+    left: -10px;
+  }
+
+  #popular-breeders-slider .owl-nav button:last-child {
+    right: -10px;
+  }
+
+  /* POPULAR BREDDER SEC CSS */
+
+  /* FOOTER SEC CSS */
+
+  .footer-wrap {
+    .footer-logo-wrap {
+      img {
+        width: 155px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 27.6px;
+      }
+    }
+
+    .footer-quick-links {
+      gap: 9px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .footer-bottom-wrap {
+      flex-direction: column;
+
+      .download-footer-applink {
+        flex-direction: column;
+      }
+
+      a img {
+        width: 100%;
+      }
+    }
+  }
+
+  /* FOOTER SEC CSS */
+
+  /* SIGN IN FLOW SEC CSS */
+
+  .influ-dropdown {
+    margin-left: 0;
+
+    .influ-btn {
+      width: 100%;
+    }
+  }
+
+  .breeder-signinflow-wrap {
+    padding: 37px 12px;
+
+    & .breeder-signinflow-inner {
+      flex-direction: column;
+      padding: 29px 10px;
+
+      & .breeder-signin-leftsec {
+        padding: 15px 7px;
+
+        img {
+          width: 151px;
+        }
+      }
+
+      .breeder-signin-rightsec {
+        padding: 6px 8px;
+
+        form {
+          padding: 28px 20px 28px 20px;
+        }
+
+        h1 {
+          color: #000;
+          font-family: "GoodDog New W00 Regular";
+          text-align: center;
+          font-size: 28px;
+          font-weight: 400;
+        }
+
+        .login-btn {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+
+        .login-txt {
+          font-size: 9px;
+          padding: 0px 63px 0px 48px;
+        }
+
+        .rembr-me {
+          font-size: 14px;
+        }
+
+        .or-sec-wrap {
+          width: 100%;
+
+          h3 {
+            font-size: 12px;
+
+            &::before {
+              content: "";
+              border: 1px solid #000000;
+              width: 24%;
+              margin-right: 6px;
+            }
+          }
+        }
+
+        .social-login-wrap {
+          display: flex;
+          gap: 13px;
+        }
+
+        .terms-condition-paragraph {
+          a {
+            font-size: 14px;
+          }
+        }
+
+        & .dont-have-accountwrap {
+          p {
+            font-size: 14px;
+          }
+        }
+
+        & .otp-verification-input {
+          gap: 8px;
+
+          .inputs {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  /* SIGN IN FLOW SEC CSS */
+
+  /* DASHBOARD CSS BREEDER */
+
+  .breeder-profile-wrap {
+    padding: 15px 10px;
+
+    .breeder-profile-inner {
+      padding: 20px 6px;
+
+      .profile-pic-wrap {
+        h1 {
+          font-size: 28px;
+          line-height: 28.46px;
+        }
+      }
+    }
+
+    .profile-form-wrap {
+      & .gallery-box-wrap {
+        flex-wrap: wrap;
+
+        .gallery-img-box {
+          width: 47%;
+        }
+      }
+
+      .profile-btn-wrap {
+        button {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+
+  .profileverify-popup-wrap {
+    padding: 18px 15px;
+
+    h1 {
+      font-size: 28px;
+    }
+
+    button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  .breedeerdasboard-profile-wrap {
+    .breedeerdasboard-profile-inner {
+      flex-direction: column;
+
+      .breedeerdasboard-profile-left {
+        width: 100%;
+      }
+
+      .breedeerdasboard-profile-right {
+        padding: 24px 7px;
+        width: 100%;
+
+        .profile-pic-wrap {
+          h1 {
+            font-size: 28px;
+            line-height: 28.46px;
+          }
+
+          .edit-profile-icon {
+            right: 0;
+            top: -15px;
+
+            a img {
+              width: 45px;
+            }
+          }
+        }
+
+        .profile-form-wrap {
+          & .profile-btn-wrap {
+            button {
+              font-size: 14px;
+              padding: 10px 20px;
+            }
+          }
+
+          & .gallery-uploadedbox-wrap {
+            flex-wrap: wrap;
+
+            & .gallery-uploadedimg-box {
+              width: 47%;
+            }
+          }
+
+          & .coaching-wp {
+            p {
+              font-size: 14px;
+              line-height: 24.6px;
+            }
+          }
+
+          .available-plans-wp {
+            & .available-heading {
+              .tooltip:hover .tooltiptext {
+                visibility: visible;
+                width: 100%;
+                min-width: min-content;
+              }
+            }
+
+            & .available-plansbox-wrap {
+              flex-wrap: wrap;
+
+              .available-plans-box {
+                width: 100%;
+              }
+
+              .available-plans-btns {
+                button.active {
+                  font-size: 14px;
+                  padding: 10px 20px;
+                }
+
+                button {
+                  font-size: 14px;
+                  padding: 10px 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /* leads css */
+
+    .leads-right {
+      width: 100%;
+
+      h1 {
+        font-size: 28px;
+        line-height: 28.46px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+      }
+
+      .profile-btn-wrap {
+        button {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+      }
+
+      .dropdown-showfilter {
+        width: auto;
+      }
+
+      & .leads-card-wrap {
+        .leads-box {
+          width: 100%;
+          flex-direction: column;
+        }
+
+        & .leads-content-wrap {
+          & .headinglead-wrap {
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+
+    /* leads css */
+
+    /* posts css */
+
+    .posts-right {
+      width: 100%;
+
+      .post-cards-wrap {
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 28px;
+        line-height: 28.46px;
+      }
+
+      .heading-favourite {
+        justify-content: flex-start;
+        margin-bottom: 72px;
+        flex-direction: column;
+      }
+
+      .user-breeder-toggle {
+        width: 100%;
+        top: 48px;
+      }
+    }
+
+    /* posts css */
+  }
+
+  .conatctcpach-popup-wrap {
+    h1 {
+      font-size: 28px;
+      line-height: 28.46px;
+    }
+
+    button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+  /* create post css */
+
+  .breedeerdasboard-createpost-wrap {
+    .breedeerdasboard-createpost-inner {
+      flex-direction: column;
+
+      & .breedeerdasboard-createpost-left {
+        width: 100%;
+      }
+
+      & .breedeerdasboard-createpost-right {
+        width: 100%;
+        padding: 3px 6px;
+
+        & form {
+          & .list-post-form {
+            .formdata-wrap:nth-child(odd) {
+              padding: 8px 3px 8px 9px;
+            }
+
+            .formdata-wrap:nth-child(even) {
+              padding: 8px 3px 8px 9px;
+            }
+
+            p {
+              font-size: 16px;
+              line-height: 27.6px;
+            }
+
+            textarea::placeholder {
+              font-size: 16px;
+            }
+
+            select {
+              width: 56%;
+            }
+
+            input[type="text"] {
+              width: 56%;
+            }
+
+            .switch-toggle {
+              width: 31%;
+            }
+
+            & .posts-btn-wrap {
+              button {
+                font-size: 14px;
+                padding: 10px 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* create post css */
+
+  /* subscription css */
+
+  .breedeerdasboard-subscription-wrap {
+    .breedeerdasboard-subscription-inner {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      & .breedeerdasboard-subscription-left {
+        width: 100%;
+      }
+
+      & .breedeerdasboard-subscription-right {
+        width: 100%;
+
+        h1 {
+          font-size: 28px;
+          line-height: 28.46px;
+        }
+
+        & .subscription-payment-wrap {
+          flex-direction: column;
+
+          .subscription-payment-box {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  /* subscription css */
+
+  /* DASHBOARD CSS BREEDER */
+}
+
+.navbar-collapse-close {
+  display: none;
+  transition: all;
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0s 0.3s;
+}
+
+@media screen and (min-width: 991px) {
+  .navbar-collapse-close {
+    display: block;
+    transition: all;
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0s 0.3s;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .nav-wrap {
+    ul.navbar-nav li.nav-item a.breeder-signin {
+      margin-left: 0px !important;
+    }
+    ul.navbar-nav li.nav-item a.user-signin {
+      margin-left: 0px !important;
+    }
+    ul.navbar-nav li.nav-item a.breeder-signin:hover, ul.navbar-nav li.nav-item a.user-signin:hover{
+      background-color: orange !important;
+	  color: white !important;
+    }
+  }
+
+  .navbar-nav{
+	.nav-item a{
+		text-align: center;
+	}
+	.nav-item a:hover{
+		color: black !important;
+	}
+  }
+
+  .dog-right-banner{
+	width: 100% !important;
+	display: flex !important;
+	justify-content: center !important;
+
+  }
+}

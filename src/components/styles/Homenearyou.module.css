@@ -1,0 +1,72 @@
+.sliderContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.sliderButton {
+  position: absolute;
+  top: 50%;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.sliderButtonPrev {
+  left: 10px;
+}
+
+.sliderButtonNext {
+  right: 10px;
+}
+
+.sliderSlide {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.newyearCatDogIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newyearCatimgWrap {
+  position: relative;
+}
+
+.heartIconWrap {
+  position: absolute;
+  bottom: 10px;
+}
+
+.newyearContentCard {
+  padding: 20px;
+  text-align: center;
+}
+
+.beforeCurveIcons {
+  margin-bottom: 10px;
+}
+
+.headingContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mailBoxWrap {
+  display: flex;
+  align-items: center;
+}
+
+.mailCount {
+  margin-left: 5px;
+}
+
+.viewMoreWrap {
+  margin-top: 10px;
+}
+
+
+
